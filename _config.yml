@@ -97,14 +97,7 @@ timezone: "America/Vancouver"
 markdown: kramdown
 highlighter: rouge
 
-# added by Rob
-syntax_highlighter_opts:
-    # Rouge Options › https://github.com/jneen/rouge#full-options
-  css_class: 'highlight'
-    line_numbers: true # bad idea, spans don't need linenos and would inherit this option
 
-
-# End added by Rob
 
 
 permalink: /:year-:month-:day-:title/
