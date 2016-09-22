@@ -96,6 +96,21 @@ url-pretty: "MyWebsite.com"  # eg. "deanattali.com/beautiful-jekyll"
 timezone: "America/Vancouver"
 markdown: kramdown
 highlighter: rouge
+
+# added by Rob
+syntax_highlighter_opts:
+    # Rouge Options › https://github.com/jneen/rouge#full-options
+  css_class: 'highlight'
+    #line_numbers: true # bad idea, spans don't need linenos and would inherit this option
+  span:
+    line_numbers: false
+  block:
+    line_numbers: true
+    start_line: 1
+
+# End added by Rob
+
+
 permalink: /:year-:month-:day-:title/
 paginate: 5
 
