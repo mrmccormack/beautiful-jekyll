@@ -22,7 +22,10 @@ To be honest, I'm having some trouble remembering right now, so why don't you ju
 # Here is some sample colored code yy
 
 ```html
+<a href="http://cnn.com">Go to CNN</a>
 <strong>hello world</strong>
+<img src="pig.jpg" alt="pig">
+<h1>Hello</h1>
 
 ```
 # Test
@@ -39,3 +42,5 @@ def test(i: Int): Unit = {
    println(i)
  }
 ```
+
+
